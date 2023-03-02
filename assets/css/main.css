@@ -2593,6 +2593,17 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+    .image.para {
+			display: block;
+			margin: 4rem 0;
+			width: 50%;
+        
+    }
+			.image.para img {
+				width: 220%;
+                height: 150%
+			}
+
 
 		.image img {
 			display: block;
@@ -2636,6 +2647,7 @@ input, select, textarea {
 			display: block;
 			margin: 4rem 0;
 			width: 100%;
+            justify-content: center
 		}
 
 			.image.main:first-child {
@@ -2643,7 +2655,7 @@ input, select, textarea {
 			}
 
 			.image.main img {
-				width: 100%;
+				width: 70%;
 			}
 
 		@media screen and (max-width: 736px) {
